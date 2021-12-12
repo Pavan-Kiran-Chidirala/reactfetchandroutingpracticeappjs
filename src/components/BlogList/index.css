@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.blog-list {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+.link-item {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

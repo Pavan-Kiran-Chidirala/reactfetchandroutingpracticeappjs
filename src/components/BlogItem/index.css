@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.blog-image {
+  width: 40%;
+  height: 180px;
+  margin-right: 20px;
+  border-radius: 2px;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  margin: 0px;
+}
+
+.topic {
+  color: #8e8e8e;
+  font-size: 18px;
+}
+
+.title {
+  color: #000000;
+  font-size: 20px;
+}
+
+.user-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.author {
+  color: #8e8e8e;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 576px) {
+  .list-item {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .topic {
+    font-size: 8px;
+  }
+  .title {
+    font-size: 10px;
+  }
+  .blog-image {
+    width: 55%;
+    height: 100px;
+    align-self: center;
+  }
+  .avatar-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .author {
+    font-size: 6px;
+  }
+}
